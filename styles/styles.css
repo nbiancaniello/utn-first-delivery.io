@@ -128,6 +128,15 @@ footer {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.404);
 }
 
+.card-price{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.card-item{
+    font-size: 2rem;
+}
+
 /* Responsive */
 
 @media(max-width:767px){
@@ -145,11 +154,29 @@ footer {
         width:60%;
         height: 50%;
     }
+
+    .card-price{
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    
+    .card-item{
+        font-size: 1.5rem;
+    }
 }
 
 @media(min-width:768px) and (max-width:991px){
     .footer-map iframe{
         width:80%;
         height: 60%;
+    }
+
+    .card-price{
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+    
+    .card-item{
+        font-size: 1.8rem;
     }
 }

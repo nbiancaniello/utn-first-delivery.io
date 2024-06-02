@@ -31,3 +31,7 @@ Para esto, utilicé el código sugerido en el link https://mdbootstrap.com/docs/
 Esto genera que el texto dentro de las cards se estire de manera vertical. Escribir mi código para eliminar los paddings calculados no está dando resultado.
 
 4. El texto utilizado en el Carousel desaparece en dispositivos móviles (tags h5 y p)
+
+Las mejoras pensadas a futuro:
+
+1. Mantener el ancho de las cards en resoluciones para dispositivos móviles
