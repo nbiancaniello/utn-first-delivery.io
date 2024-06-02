@@ -137,6 +137,10 @@ footer {
         align-items: center;
     }
 
+    .col-6{
+        width: 100%;
+    }
+
     .footer-map iframe{
         width:60%;
         height: 50%;
