@@ -9,7 +9,7 @@
     <link rel='stylesheet' href='./styles/styles.css'>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Logo</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,27 +17,53 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  Productos
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Promociones</a></li>
+                  <li><a class="dropdown-item" href="#">Recién llegado</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Aceite</a></li>
+                  <li><a class="dropdown-item" href="#">Bebidas</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                        Infusiones &raquo;
+                    </a>
+                    <ul class="dropdown-menu dropdown-submenu">
+                      <li>
+                        <a class="dropdown-item" href="#">Café</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Té</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Yerba</a>
+                        <!-- <ul class="dropdown-menu dropdown-submenu">
+                          <li>
+                            <a class="dropdown-item" href="#">Multi level 1</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Multi level 2</a>
+                          </li>
+                        </ul> -->
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Otros</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Limpieza</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link disabled" aria-disabled="true">Pedidos</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
           </div>
         </div>
@@ -46,7 +72,7 @@
       <div class="container-fluid text-center products">
         <div class="row newarrivals">
           <div class="col"></div>
-          <div id="carouselExampleCaptions" class="carousel slide col-6">
+          <div id="carouselExampleCaptions" class="carousel slide col-10">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -61,7 +87,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="https://baconmockup.com/900/360" class="d-block w-100" alt="Nuevo Ingreso">
+                <img src="https://baconmockup.com/760/360" class="d-block w-100" alt="Nuevo Ingreso">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Carré de cerdo</h5>
                   <p class="regular">1kg x $2300</p>
@@ -86,34 +112,102 @@
           </div>
           <div class="col"></div>
         </div>
-        <div class="row categories">
-          <div class="col">
-            1 of 3
+        <div class="row promotions">
+            <div class="col-6 col-sm-4">
+                <div class="card card-product">
+                    <img src="https://fakeimg.pl/350x200/?text=Coca Cola&font=lobster" class="card-img-top" alt="promo">
+                    <div class="card-body">
+                    <h4 class="card-title">Gaseosa Cola 1.5L</h4>
+                    <h5 class="card-title">Coca Cola</h5>
+                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                    <a href="#" class="btn btn-success">Ver Promoción</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4">
+                <div class="card card-product">
+                    <img src="https://fakeimg.pl/350x200/?text=Marolio&font=lobster" class="card-img-top" alt="promo">
+                    <div class="card-body">
+                    <h4 class="card-title">Aceite de Girasol 1L</h4>
+                    <h5 class="card-title">Marolio</h5>
+                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                    <a href="#" class="btn btn-success">Ver Promoción</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4">
+                <div class="card card-product">
+                    <img src="https://fakeimg.pl/350x200/?text=Patagonia&font=lobster" class="card-img-top" alt="promo">
+                    <div class="card-body">
+                    <h4 class="card-title">Cerveza 750ml</h4>
+                    <h5 class="card-title">Patagonia</h5>
+                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                    <a href="#" class="btn btn-success">Ver Promoción</a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Force next columns to break to new line at md breakpoint and up -->
+            <div class="w-100 d-none d-md-block card-product"></div>
+        
+            <div class="col-6 col-sm-4">
+                <div class="card card-product">
+                    <img src="https://fakeimg.pl/350x200/?text=Sussex&font=lobster" class="card-img-top" alt="promo">
+                    <div class="card-body">
+                    <h4 class="card-title">Papel de Cocina x3</h4>
+                    <h5 class="card-title">Sussex</h5>
+                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                    <a href="#" class="btn btn-success">Ver Promoción</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4">
+                <div class="card card-product">
+                    <img src="https://fakeimg.pl/350x200/?text=Nestle&font=lobster" class="card-img-top" alt="promo">
+                    <div class="card-body">
+                    <h4 class="card-title">Café Instanáneo 500gr</h4>
+                    <h5 class="card-title">Nestlé</h5>
+                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                    <a href="#" class="btn btn-success">Ver Promoción</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4">
+                <div class="card card-product">
+                    <img src="https://fakeimg.pl/350x200/?text=La Campagnola&font=lobster" class="card-img-top" alt="promo">
+                    <div class="card-body">
+                    <h4 class="card-title">Atún al Natural</h4>
+                    <h5 class="card-title">La Campagnola</h5>
+                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                    <a href="#" class="btn btn-success">Ver Promoción</a>
+                    </div>
+                </div>
+            </div>
           </div>
-          <div class="col-10">
-            2 of 3 (wider)
-          </div>
-          <div class="col">
-            3 of 3
-          </div>
-        </div>
       </div>
 
-      <footer class="bg-body-tertiary">
+      <footer class="bg-body-secondary">
         <div class="container-fluid text-center footer-content">
             <div class="row footer-row">
                 <div class="col footer-contacts">
                     <h3>Contacto</h3>
                     <ul>
                         <li>
-                            <i class="fa-solid fa-phone"></i> 4667-3223
+                            <i class="fa-solid fa-phone"></i>
+                            <p>4667-3223</p> 
                         </li>
                         <li>
-                            <i class="fa-brands fa-whatsapp"></i> 114667-3223
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <p>114667-3223</p> 
                         </li>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i>
+                            <p><a href="https://www.instagram.com/autoserviciomiguelangel/"> autoserviciomiguelangel</a></p>
+                        </li>
+                        
                     </ul>
                 </div>
-                <div class="col footer-contacts">
+                <div class="col-3 footer-schedule">
                     <h3>Horario de Atención</h3>
                     <table class="table">
                         <thead>
@@ -123,7 +217,7 @@
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
+                          <tr class="table-success">
                             <th scope="row">Lunes</th>
                             <td>8:00 a 13:00 / 16:00 a 20:30</td>
                           </tr>
@@ -154,7 +248,7 @@
                         </tbody>
                       </table>
                 </div>
-                <div class="col-6 footer-map">
+                <div class="col-5 footer-map">
                     <h3>Nuestra Sucursal</h3>
                     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.414791899557!2d-58.707913024479446!3d-34.54305175429652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd0f0670c3d9%3A0xfab68251858a13f0!2sODS%2C%20Rodr%C3%ADguez%20Pena%20904%2C%20B1663%20San%20Miguel%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1sen!2sca!4v1717333852056!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
