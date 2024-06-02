@@ -35,3 +35,6 @@ Esto genera que el texto dentro de las cards se estire de manera vertical. Escri
 Las mejoras pensadas a futuro:
 
 1. Mantener el ancho de las cards en resoluciones para dispositivos móviles
+2. Revisar el tamaño y familia de fuentes en la barra de navegación, carousel y tarjetas
+3. Reemplazar el layout de tarjetas por diseño con paginación/carousel.
+4. Agregar menú desplegable en la caja de búsqueda con historial.

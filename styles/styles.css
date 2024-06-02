@@ -137,6 +137,14 @@ footer {
     font-size: 2rem;
 }
 
+#navbarSupportedContent form input{
+    font-size: 1.7rem;
+}
+
+#navbarSupportedContent form button{
+    font-size: 1.7rem;
+}
+
 /* Responsive */
 
 @media(max-width:767px){
