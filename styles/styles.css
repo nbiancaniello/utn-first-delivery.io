@@ -27,12 +27,18 @@ nav{
 }
 
 .products{
-    margin: 2rem;
+    --margin: 2rem;
     height: 80%;
 }
 
+.newarrivals{
+    margin-top: 2rem;
+}
+
 .promotions{
-    margin: 100px;
+    /* margin: 100px; */
+    margin-top: 2rem;
+    /* padding: 100px; */
 }
 
 footer {
@@ -117,7 +123,7 @@ footer {
 }
 
 .card-product{
-    margin: 1rem;
+    margin: 0.3rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -137,6 +143,10 @@ footer {
     font-size: 2rem;
 }
 
+.card-body button{
+    font-size: 2rem;
+}
+
 #navbarSupportedContent form input{
     font-size: 1.7rem;
 }
@@ -147,7 +157,7 @@ footer {
 
 /* Responsive */
 
-@media(max-width:767px){
+@media(max-width:576px){
     .row{
         flex-direction: column;
         align-content: center;
@@ -162,29 +172,47 @@ footer {
         width:60%;
         height: 50%;
     }
+}
 
-    .card-price{
+@media(min-width:576px) and (max-width:767px){
+    .row{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .col-6{
+        width: 75%;
+    }
+
+    .footer-map iframe{
+        width:60%;
+        height: 50%;
+    }
+
+    /* .card-price{
         font-size: 1.8rem;
         font-weight: 700;
     }
     
     .card-item{
         font-size: 1.5rem;
-    }
+    } */
 }
 
 @media(min-width:768px) and (max-width:991px){
+    
     .footer-map iframe{
         width:80%;
         height: 60%;
     }
 
-    .card-price{
+    /* .card-price{
         font-size: 2.2rem;
         font-weight: 700;
     }
     
     .card-item{
         font-size: 1.8rem;
-    }
+    } */
 }
