@@ -169,13 +169,18 @@ footer {
         align-items: center;
     }
 
+    .footer-schedule{
+        width: 75%;
+    }
+
     .col-6{
         width: 100%;
     }
 
     .footer-map iframe{
-        width:60%;
-        height: 50%;
+        width: 100%;
+        /* height: 70%; */
+        /* height: 50%; */
     }
 }
 
@@ -184,6 +189,10 @@ footer {
         flex-direction: column;
         align-content: center;
         align-items: center;
+    }
+
+    .col-4{
+        width: 75%;
     }
 
     .col-6{
@@ -199,14 +208,14 @@ footer {
         font-size: 1.8rem;
         font-weight: 700;
     }
-    
+
     .card-item{
         font-size: 1.5rem;
     } */
 }
 
 @media(min-width:768px) and (max-width:991px){
-    
+
     .footer-map iframe{
         width:80%;
         height: 60%;
@@ -216,7 +225,7 @@ footer {
         font-size: 2.2rem;
         font-weight: 700;
     }
-    
+
     .card-item{
         font-size: 1.8rem;
     } */
