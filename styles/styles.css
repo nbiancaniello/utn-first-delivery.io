@@ -26,9 +26,14 @@ nav{
     font-size: 1.7rem;
 }
 
+.main-title h1{
+    font-size: 5rem;
+}
+
 .products{
-    --margin: 2rem;
+    /* margin: 2rem; */
     height: 80%;
+    padding-bottom: 2rem;
 }
 
 .newarrivals{
