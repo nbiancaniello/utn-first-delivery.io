@@ -13,3 +13,11 @@ function getCurrentDate(){
       rowIx++;
    })
 }
+
+//ToDo - Implement ReCaptcha
+function onClick(e) {
+   e.preventDefault();
+   grecaptcha.enterprise.ready(async () => {
+   const token = await grecaptcha.enterprise.execute('6LfxQfopAAAAAKZVKzth87qPOlT6wcXLujX7bqJ7', {action: 'LOGIN'});
+   });
+}
