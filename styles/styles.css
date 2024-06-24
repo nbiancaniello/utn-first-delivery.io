@@ -73,6 +73,12 @@ footer {
     font-size: 2rem;
 }
 
+.footer-schedule{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .footer-schedule h3{
     margin-top: 3rem;
 }
@@ -83,6 +89,7 @@ footer {
 
 .footer-schedule table{
     margin-top: 3rem;
+    width: 80%;
 }
 
 .footer-schedule table thead{
@@ -167,10 +174,6 @@ footer {
         flex-direction: column;
         align-content: center;
         align-items: center;
-    }
-
-    .footer-schedule{
-        width: 75%;
     }
 
     .col-6{
