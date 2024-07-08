@@ -1,0 +1,24 @@
+{
+   "newArrivals": [
+     {
+       "id": 7,
+       "description": "Carré de Cerdo por 1kg",
+       "price": "6000",
+       "image": "https://baconmockup.com/640/360"
+     },
+     {
+      "id": 8,
+      "description": "Bife de Chorizo por 1kg",
+      "price": "9000",
+      "image": "https://baconmockup.com/760/360"
+
+   },
+   {
+      "id": 9,
+      "description": "Panceta x 250gr",
+      "price": "1.800",
+      "image": "https://baconmockup.com/640/400"
+
+    }
+   ]
+ }

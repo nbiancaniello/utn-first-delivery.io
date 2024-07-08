@@ -22,6 +22,20 @@ nav{
     font-size: 1.7rem;
 }
 
+.hidden{
+    display: none;
+}
+
+#btnSearch{
+    width: 125px;
+    margin-right: 0.2rem;
+}
+
+#btnCart, #btnUser{
+    margin: 0rem 0.2rem;
+    width: 150px;
+}
+
 .dropdown-item {
     font-size: 1.7rem;
 }
@@ -155,8 +169,30 @@ footer {
     font-size: 2rem;
 }
 
-.card-body button{
+.card-add{
     font-size: 2rem;
+}
+
+.card-qty{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-qty-label{
+    font-size: 1.5rem;
+}
+
+.card-qty-input{
+    font-size: 1.5rem;
+    width: 25%;
+}
+
+.card-qty-delete, .card-qty-save{
+    font-size: 1.8rem;
+    width: 3rem;
+    padding: 0.3rem;
 }
 
 #navbarSupportedContent form input{
@@ -165,6 +201,13 @@ footer {
 
 #navbarSupportedContent form button{
     font-size: 1.7rem;
+}
+
+.nav-link-btn{
+    font-size: 1.8rem;
+    width: 10rem;
+    padding: 0.3rem;
+    margin: 0rem 0.2rem;
 }
 
 /* Responsive */
@@ -232,4 +275,8 @@ footer {
     .card-item{
         font-size: 1.8rem;
     } */
+}
+
+#purchaseSummary{
+    text-align: center;
 }

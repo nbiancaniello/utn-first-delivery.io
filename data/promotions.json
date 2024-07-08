@@ -1,0 +1,45 @@
+{
+   "products": [
+     {
+       "id": 1,
+       "description": "Coca Cola Clásica 2L No retornable",
+       "price": "2.400",
+       "image": "two-liter-bottle-of-coca-cola.jpg"
+     },
+     {
+      "id": 2,
+      "description": "Aceite de Girasol 1.5L Natura",
+      "price": "2.300",
+      "image": "aceite-natura-litre-half.webp"
+
+   },
+   {
+      "id": 3,
+      "description": "Cerveza 730cc Rubia Patagonia",
+      "price": "2.300",
+      "image": "cerveza-patagonia-730cc.webp"
+
+    },
+    {
+      "id": 4,
+      "description": "Rollo de Cocina x3 Sussex",
+      "price": "2.300",
+      "image": "rollo-cocina-sussex-x3.webp"
+
+    },
+    {
+      "id": 5,
+      "description": "Café Dolca Original 170gr Nescafé",
+      "price": "4.500",
+      "image": "DOLCA_170G_.webp"
+
+    },
+    {
+      "id": 6,
+      "description": "AlAtún al Natural La Campagnolaice",
+      "price": "3.500",
+      "image": "Atun-natural-la-campagnola.webp"
+
+    }
+   ]
+ }

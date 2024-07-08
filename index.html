@@ -71,8 +71,16 @@
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit"><i
+                    <button id="btnSearch" class="btn btn-outline-success" type="submit"><i
                             class="fa-solid fa-magnifying-glass"></i></button>
+                    <!-- <button id="btnCart" class="btn btn-success" type="submit"><i
+                        class="fa-solid fa-cart-shopping"></i></button> -->
+                    <a class="btn btn-success nav-link-btn" role="button" aria-disabled="true" href="./shoppingCart.html"><i
+                        class="fa-solid fa-cart-shopping"></i></a>
+                    <!-- <button id="btnUser" class="btn btn-success" type="submit"><i
+                        class="fa-solid fa-user"></i></button> -->
+                    <a class="btn btn-success nav-link-btn" role="button" aria-disabled="true" href="./user.html"><i
+                        class="fa-solid fa-user"></i></a>
                 </form>
             </div>
         </div>
@@ -93,34 +101,8 @@
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="./product.html">
-                            <img src="https://baconmockup.com/640/360" class="d-block w-100" alt="Nuevo Ingreso">
-                        </a>
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>Jamón Serrano</h5>
-                        <p class="regular">100gr x $100</p>
-                    </div>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="./product.html">
-                            <img src="https://baconmockup.com/760/360" class="d-block w-100" alt="Nuevo Ingreso">
-                        </a>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Carré de cerdo</h5>
-                            <p class="regular">1kg x $2300</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="./product.html">
-                            <img src="https://baconmockup.com/640/400" class="d-block w-100" alt="Nuevo Ingreso">
-                        </a>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Panceta de campo</h5>
-                            <p class="promo">Promoción: 250gr x $300</p>
-                        </div>
-                    </div>
+                <div id="carousel-inner" class="carousel-inner">
+                    <!-- Panels generated in JS -->
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
@@ -135,92 +117,11 @@
             </div>
             <div class="col"></div>
         </div>
-        <div class="row promotions">
+        <div class="row promotions" id="promotions">
             <div class="main-title">
                 <h1>Promociones</h1>
             </div>
-            <div class="col-6 col-sm-4">
-                <div class="card card-product">
-                    <a href="./product.html">
-                        <img src="./img/two-liter-bottle-of-coca-cola.jpg" class="card-img-top" alt="promo">
-                    </a>
-                    <div class="card-body">
-                        <p class="card-price">$2.400</p>
-                        <p class="card-item">Coca Cola Clásica 2L No retornable</p>
-                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <button class="btn btn-success">Agregar</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-sm-4">
-                <div class="card card-product">
-                    <a href="./product.html">
-                        <img src="./img/aceite-natura-litre-half.webp" class="card-img-top" alt="promo">
-                    </a>
-                    <div class="card-body">
-                        <p class="card-price">$2.300</p>
-                        <p class="card-item">Aceite de Girasol 1.5L Natura</p>
-                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <button class="btn btn-success">Agregar</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-sm-4">
-                <div class="card card-product">
-                    <a href="./product.html">
-                        <img src="./img/cerveza-patagonia-730cc.webp" class="card-img-top" alt="promo">
-                    </a>
-                    <div class="card-body">
-                        <p class="card-price">$2.300</p>
-                        <p class="card-item">Cerveza 730cc Rubia Patagonia</p>
-                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <button class="btn btn-success">Agregar</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Force next columns to break to new line at md breakpoint and up -->
-            <div class="w-100 d-none d-md-block card-product"></div>
-
-            <div class="col-6 col-sm-4">
-                <div class="card card-product">
-                    <a href="./product.html">
-                        <img src="./img/rollo-cocina-sussex-x3.webp" class="card-img-top" alt="promo">
-                    </a>
-                    <div class="card-body">
-                        <p class="card-price">$2.300</p>
-                        <p class="card-item">Rollo de Cocina x3 Sussex</p>
-                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <button class="btn btn-success">Agregar</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-sm-4">
-                <div class="card card-product">
-                    <a href="./product.html">
-                        <img src="./img/DOLCA_170G_.webp" class="card-img-top" alt="promo">
-                    </a>
-                    <div class="card-body">
-                        <p class="card-price">$4.500</p>
-                        <p class="card-item">Café Dolca Original 170gr Nescafé</p>
-                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <button class="btn btn-success">Agregar</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-sm-4">
-                <div class="card card-product">
-                    <a href="./product.html">
-                        <img src="./img/Atun-natural-la-campagnola.webp" class="card-img-top" alt="promo">
-                    </a>
-                    <div class="card-body">
-                        <p class="card-price">$3.500</p>
-                        <p class="card-item">Atún al Natural La Campagnola</p>
-                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                        <button class="btn btn-success">Agregar</button>
-                    </div>
-                </div>
-            </div>
+            <!-- Cards Generated in JS -->
         </div>
     </div>
 
@@ -293,10 +194,6 @@
                 </div>
                 <div class="col-5 footer-map">
                     <h3>Nuestra Sucursal</h3>
-                    <!-- <iframe class="map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.414791899557!2d-58.707913024479446!3d-34.54305175429652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd0f0670c3d9%3A0xfab68251858a13f0!2sODS%2C%20Rodr%C3%ADguez%20Pena%20904%2C%20B1663%20San%20Miguel%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1sen!2sca!4v1717333852056!5m2!1sen!2sca"
-                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                     <iframe class="map"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.414791899557!2d-58.707913024479446!3d-34.54305175429652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd0f0670c3d9%3A0xfab68251858a13f0!2sODS%2C%20Rodr%C3%ADguez%20Pena%20904%2C%20B1663%20San%20Miguel%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1sen!2sca!4v1717333852056!5m2!1sen!2sca"
                         style="border:0;" allowfullscreen="" loading="lazy"
